@@ -1,0 +1,20 @@
+{
+  "name": "jwt-seed",
+  "version": "1.0.0",
+  "description": "demo seed project for a secure and correct use of jwt",
+  "main": "server.js",
+  "repository": "git@github.com:thinkMX/jwt-seed.git",
+  "author": "richidev <richi@mevn.lat>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "redis": "^2.8.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
